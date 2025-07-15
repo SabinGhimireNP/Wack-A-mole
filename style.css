@@ -39,6 +39,7 @@ h1 {
 }
 
 .hole {
+  display: none;
   flex: 1 0 33.33%;
   overflow: hidden;
   position: relative;
@@ -71,9 +72,6 @@ h1 {
 }
 
 .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(112, 66, 54);
   height: 8rem;
   font-size: 3rem;
@@ -81,5 +79,38 @@ h1 {
   width: 17rem;
   border-radius: 100px;
   box-shadow: 2px 2px 20px 2px black;
-  position: relative;
+  left: 45%;
+}
+.try {
+  background-color: rgb(112, 66, 54);
+  height: 8rem;
+  font-size: 3rem;
+  color: antiquewhite;
+  width: 17rem;
+  border-radius: 100px;
+  box-shadow: 2px 2px 20px 2px black;
+  left: 45%;
+}
+
+.startHolder {
+  position: fixed;
+  left: 45%;
+  top: 30%;
+  z-index: 1000;
+  display: block;
+}
+.tryAgain {
+  display: none;
+  position: fixed;
+  left: 45%;
+  top: 85%;
+  z-index: 1000;
+}
+
+.timer {
+  font-size: 3rem;
+  position: fixed;
+  left: 80%;
+  top: 50%;
+  color: white;
 }
